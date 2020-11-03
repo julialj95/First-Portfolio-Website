@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.center-text {
+  text-align: center;
+}
+.center-box {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.left-float {
+  float: left;
+  display: inline;
+}
+/* .right-float {
+  display: inline;
+  float: right;
+} *//*  */
+
+.wrapper {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.clear {
+  clear: left;
+}
+.overflow {
+  overflow: auto;
+}
+/*sets background colors*/
+.light-blue-background {
+  background-color: rgb(198, 248, 246);
+  color: black;
+}
+
+.blue-background {
+  background-color:turquoise;
+  color: white;
+  text-align: center;
+  font-family: Segoe UI;
+  font-size: 30px
+  
+}
+/* styling for elements*/
+/* main, header, footer {
+  margin: 20px;
+  padding: 20px;
+} */
+
+header, h1, h2, h3, footer {
+  font-family: Raleway;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-family: Raleway;
+  font-size: 60px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+h3 {
+  font-size: 18px;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+ol, nav {
+  padding-top: 0px;
+  padding-bottom:20px;
+}
+
+img {
+  box-sizing: border-box;
+  padding: 0;
+  margin-left: 60px;
+  border-radius: 20%;
+  display: inline;
+  width: 200px;
+  /* float: left; */
+  }
+
+p, ul, ol {
+  font-size: 20px;
+  font-family: Raleway;
+}
+
+hr {
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+footer {
+  height: 60px;
+  font-size: 18px;
+}
+
+/*adds copyright symbol before the name */
+h3:before {
+  content: "\00a9";
+}
+
+/* links*/
+a:link {
+  color: darkcyan;
+}
+a:visited {
+  color: blue;
+}
+a:hover {
+  color:gainsboro;
+}
+a:active {
+  color: aquamarine;
+}
+-
